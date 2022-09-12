@@ -49,7 +49,7 @@ struct ContentView: View {
                     self.putUpdateState = "Waiting..."
                     self.apiUpdateEmployee(emp: Employee(id: 1, name: "test2", salary: 12200, age: 28, image: ""))
                 } label: {
-                    Text("Create employee (status: \(self.putUpdateState))")
+                    Text("Update employee (status: \(self.putUpdateState))")
                 }
                 
                 
@@ -58,7 +58,7 @@ struct ContentView: View {
                     self.delDeleteState = "Waiting..."
                     self.apiDeleteEmployee(id: 1)
                 } label: {
-                    Text("Create employee (status: \(self.delDeleteState))")
+                    Text("Delete employee (status: \(self.delDeleteState))")
                 }
 
             }.navigationBarTitle("Network actions")
