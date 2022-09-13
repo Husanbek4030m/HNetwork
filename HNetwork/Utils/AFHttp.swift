@@ -49,6 +49,8 @@ class AFHttp {
     static let API_EMPLOYE_UPDATE = "update/" //:id
     static let API_EMPLOYE_DELETE = "delete/" //:id
     
+       
+    
     // MARK : - Paramslar
     
     class func paramsEmpty() -> Parameters {
